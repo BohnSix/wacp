@@ -2,4 +2,6 @@
 /.vscode
 /opencood/logs
 /OpenCOOD.egg-info
-/.gitignore
+__pycache__/
+*.py[cod]
+*$py.class
