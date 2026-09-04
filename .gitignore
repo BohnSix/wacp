@@ -1,5 +1,5 @@
 /build
 /.vscode
-/opencood/logs/*
+/opencood/logs
 /OpenCOOD.egg-info
-.gitignore
+/.gitignore
