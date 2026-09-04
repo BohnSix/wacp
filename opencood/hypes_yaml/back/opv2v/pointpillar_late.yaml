@@ -1,7 +1,7 @@
 name: opv2v_point_pillar_lidar_late_fusion
-root_dir: "/DATACENTER1/data/opv2v/train"
-validate_dir: "/DATACENTER1/data/opv2v/validate"
-test_dir: "/DATACENTER1/data/opv2v/test"
+root_dir: "/data/bohnsix/datasets/OPV2V/train"
+validate_dir: "/data/bohnsix/datasets/OPV2V/validate"
+test_dir: "/data/bohnsix/datasets/OPV2V/test"
 
 yaml_parser: "load_point_pillar_params"
 train_params:

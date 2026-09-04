@@ -1,14 +1,14 @@
 name: opv2v_point_pillar_lidar_selfatt_singlescale_dim_64
-root_dir: "/DATACENTER1/data/opv2v/train"
-validate_dir: "/DATACENTER1/data/opv2v/validate"
-test_dir: "/DATACENTER1/data/opv2v/test"
+root_dir: "/data/bohnsix/datasets/OPV2V/train"
+validate_dir: "/data/bohnsix/datasets/OPV2V/validate"
+test_dir: "/data/bohnsix/datasets/OPV2V/test"
 
 yaml_parser: "load_point_pillar_params"
 train_params:
   batch_size: &batch_size 4
   epoches: 30
   eval_freq: 2
-  save_freq: 3
+  save_freq: 2
   max_cav: &max_cav 5
 
 input_source: ['lidar']

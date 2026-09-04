@@ -1,7 +1,7 @@
 name: opv2v_coib_ib
-root_dir: "/DATACENTER1/data/opv2v/train"
-validate_dir: "/DATACENTER1/data/opv2v/validate"
-test_dir: "/DATACENTER1/data/opv2v/test"
+root_dir: "/data/bohnsix/datasets/OPV2V/train"
+validate_dir: "/data/bohnsix/datasets/OPV2V/validate"
+test_dir: "/data/bohnsix/datasets/OPV2V/test"
 
 yaml_parser: "load_point_pillar_params"
 
@@ -10,10 +10,10 @@ ib_params:
   begin_epoch: 15
 
 train_params:
-  batch_size: &batch_size 4
+  batch_size: &batch_size 2
   epoches: 30
   eval_freq: 2
-  save_freq: 3
+  save_freq: 2
   max_cav: &max_cav 5
 
 input_source: ['lidar']
